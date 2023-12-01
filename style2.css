@@ -174,14 +174,18 @@ form.sign-in-form {
   z-index: 6;
 }
 
+#dish {
+  width: 900px;
+}
+
 .image {
-  /* width: 100%; */
   width: 315px;
-  /* height: 218px; */
-  /* width: 260px; */
   transition: transform 1.1s ease-in-out;
   transition-delay: 0.4s;
+  border-radius: 50%;
 }
+
+
 
 .panel {
   display: flex;

@@ -8,23 +8,23 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style2.css" />
-    <title>Food Website</title>
+    <title>Nutrilicious</title>
   </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
+          <form action="#" class="sign-in-form" id="sign-in">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" id="name" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" id="pass" />
             </div>
-            <input type="submit" value="Login" class="btn solid" />
+            <input type="submit" value="Login" class="btn solid log" />
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -41,19 +41,19 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+          <form action="#" class="sign-up-form" id="sign-up">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" id="uname" />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" id="email"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" id="password"/>
             </div>
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Or Sign up with social platforms</p>
@@ -80,31 +80,31 @@
           <div class="content">
             <h3>New here ?</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-              ex ratione. Aliquid!
+              Welcome to Nutrilicious, where your journey to a healthier you begins! Signing up opens the door to a world of nutritious delights. Join our community, explore exclusive offers, and savor the taste of well-being. Let's embark on this flavorful adventure together!
             </p>
             <button class="btn transparent" id="sign-up-btn">
               Sign up
             </button>
           </div>
-          <img src="assets/images/photo.avif" class="image" alt="" />
+          <img src="assets/images/reg.avif" class="image" alt="" />
         </div>
         <div class="panel right-panel">
           <div class="content">
             <h3>One of us ?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laboriosam ad deleniti.
+              Welcome back, Nutrilicious enthusiast! Ready to dive back into a world of health-infused indulgence? Sign in to access your personalized menu, track your culinary journey, and discover what's cooking in our vibrant community. Let's continue the Nutrilicious experience – where taste meets vitality!
             </p>
             <button class="btn transparent" id="sign-in-btn">
               Sign in
             </button>
           </div>
-          <img src="assets/images/reg.avif" class="image" alt="" />
+          <img src="assets/images/Untitled_design-removebg-preview.png" class="image" id="dish" alt="" />
         </div>
       </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="back.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
