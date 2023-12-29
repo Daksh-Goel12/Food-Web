@@ -12,7 +12,7 @@ Nutrilicious: Embracing Health, Celebrating Taste</h1>
 
 <p>Nutrilicious is designed responsively, ensuring a seamless and enjoyable user experience across different screens, be it on desktops, tablets, or mobile devices.</p>
 
-<p>Hosted Link</p>
+<h2>Hosted Link</h2>
 Visit <a href="https://nutrilicious-food.netlify.app/">Nutrilicious</a> to embark on a culinary journey that celebrates both health and taste.
 
 <h2>Screenshots</h2>
